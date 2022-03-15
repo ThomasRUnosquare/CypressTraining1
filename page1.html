@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UFT-8" />
+        <title>Second Page</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" required />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+            </div>
+            <div>
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+        <fieldset>
+            <legend>Checkbox Example</legend>
+            <input type ="checkbox" id="selection1" value="select1">
+            <label for="vehicle1"> SELECT ONE </label>
+            <input type ="checkbox" id="vehicle2" value="select2">
+            <label for="vehicle2"> SELECT TWO </label>
+            <input type ="checkbox" id="vehicle3" value="select3">
+            <label for="vehicle3"> SELECT THREE </label>
+            <input type ="checkbox" id="vehicle4" value="select4">
+            <label for="vehicle4"> SELECT FOUR </label>
+        </fieldset>
+    </body>
+    <script>
+        const form = document.forms[0];
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+        });
+    </script>
+</html>

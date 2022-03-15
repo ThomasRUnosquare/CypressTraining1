@@ -1,0 +1,19 @@
+{
+  "name": "initialproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^17.5.0",
+    "nodejs": "0.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
